@@ -18,15 +18,7 @@
 		3908CC041C9479270019D36B /* SIPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 3908CC031C9479270019D36B /* SIPhoto.m */; };
 		3908CC081C9494A20019D36B /* mainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3908CC071C9494A20019D36B /* mainViewController.m */; };
 		395470131C951D1200081EB3 /* logViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 395470121C951D1200081EB3 /* logViewController.m */; };
-		395470161C9521EF00081EB3 /* newsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 395470151C9521EF00081EB3 /* newsViewController.m */; };
 		395470571C953FFE00081EB3 /* wvViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 395470561C953FFE00081EB3 /* wvViewController.m */; };
-		3954705F1C95431500081EB3 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 395470581C95431500081EB3 /* Bolts.framework */; };
-		395470601C95431500081EB3 /* FacebookSDKStrings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 395470591C95431500081EB3 /* FacebookSDKStrings.bundle */; };
-		395470611C95431500081EB3 /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3954705A1C95431500081EB3 /* FBAudienceNetwork.framework */; };
-		395470621C95431500081EB3 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3954705B1C95431500081EB3 /* FBSDKCoreKit.framework */; };
-		395470631C95431500081EB3 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3954705C1C95431500081EB3 /* FBSDKLoginKit.framework */; };
-		395470641C95431500081EB3 /* FBSDKMessengerShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3954705D1C95431500081EB3 /* FBSDKMessengerShareKit.framework */; };
-		395470651C95431500081EB3 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3954705E1C95431500081EB3 /* FBSDKShareKit.framework */; };
 		3954706D1C955D1F00081EB3 /* MWFeedInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 395470671C955D1F00081EB3 /* MWFeedInfo.m */; };
 		3954706E1C955D1F00081EB3 /* MWFeedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 395470691C955D1F00081EB3 /* MWFeedItem.m */; };
 		3954706F1C955D1F00081EB3 /* MWFeedParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3954706C1C955D1F00081EB3 /* MWFeedParser.m */; };
@@ -35,6 +27,14 @@
 		3954707C1C955DC100081EB3 /* NSString+XMLEntities.m in Sources */ = {isa = PBXBuildFile; fileRef = 3954707B1C955DC100081EB3 /* NSString+XMLEntities.m */; };
 		395470831C955DFB00081EB3 /* DetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 395470801C955DFB00081EB3 /* DetailTableViewController.m */; };
 		395470841C955DFB00081EB3 /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 395470821C955DFB00081EB3 /* GTMNSString+HTML.m */; };
+		3960BA481C95655E0000CBF9 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3960BA411C95655E0000CBF9 /* Bolts.framework */; };
+		3960BA491C95655E0000CBF9 /* FacebookSDKStrings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3960BA421C95655E0000CBF9 /* FacebookSDKStrings.bundle */; };
+		3960BA4A1C95655E0000CBF9 /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3960BA431C95655E0000CBF9 /* FBAudienceNetwork.framework */; };
+		3960BA4B1C95655E0000CBF9 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3960BA441C95655E0000CBF9 /* FBSDKCoreKit.framework */; };
+		3960BA4C1C95655E0000CBF9 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3960BA451C95655E0000CBF9 /* FBSDKLoginKit.framework */; };
+		3960BA4D1C95655E0000CBF9 /* FBSDKMessengerShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3960BA461C95655E0000CBF9 /* FBSDKMessengerShareKit.framework */; };
+		3960BA4E1C95655E0000CBF9 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3960BA471C95655E0000CBF9 /* FBSDKShareKit.framework */; };
+		3960BA501C9565700000CBF9 /* newsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3960BA4F1C9565700000CBF9 /* newsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,16 +59,8 @@
 		395470111C951D1200081EB3 /* logViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = logViewController.h; sourceTree = "<group>"; };
 		395470121C951D1200081EB3 /* logViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = logViewController.m; sourceTree = "<group>"; };
 		395470141C9521EF00081EB3 /* newsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = newsViewController.h; sourceTree = "<group>"; };
-		395470151C9521EF00081EB3 /* newsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = newsViewController.m; sourceTree = "<group>"; };
 		395470551C953FFE00081EB3 /* wvViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wvViewController.h; sourceTree = "<group>"; };
 		395470561C953FFE00081EB3 /* wvViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wvViewController.m; sourceTree = "<group>"; };
-		395470581C95431500081EB3 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "NEWS Feed/Bolts.framework"; sourceTree = "<group>"; };
-		395470591C95431500081EB3 /* FacebookSDKStrings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = FacebookSDKStrings.bundle; path = "NEWS Feed/FacebookSDKStrings.bundle"; sourceTree = "<group>"; };
-		3954705A1C95431500081EB3 /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBAudienceNetwork.framework; path = "NEWS Feed/FBAudienceNetwork.framework"; sourceTree = "<group>"; };
-		3954705B1C95431500081EB3 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "NEWS Feed/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
-		3954705C1C95431500081EB3 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "NEWS Feed/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
-		3954705D1C95431500081EB3 /* FBSDKMessengerShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKMessengerShareKit.framework; path = "NEWS Feed/FBSDKMessengerShareKit.framework"; sourceTree = "<group>"; };
-		3954705E1C95431500081EB3 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "NEWS Feed/FBSDKShareKit.framework"; sourceTree = "<group>"; };
 		395470661C955D1F00081EB3 /* MWFeedInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MWFeedInfo.h; path = "NEWS Feed/Classes/MWFeedInfo.h"; sourceTree = SOURCE_ROOT; };
 		395470671C955D1F00081EB3 /* MWFeedInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MWFeedInfo.m; path = "NEWS Feed/Classes/MWFeedInfo.m"; sourceTree = SOURCE_ROOT; };
 		395470681C955D1F00081EB3 /* MWFeedItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MWFeedItem.h; path = "NEWS Feed/Classes/MWFeedItem.h"; sourceTree = SOURCE_ROOT; };
@@ -86,6 +78,14 @@
 		395470801C955DFB00081EB3 /* DetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailTableViewController.m; path = "NEWS Feed/Classes/DetailTableViewController.m"; sourceTree = SOURCE_ROOT; };
 		395470811C955DFB00081EB3 /* GTMNSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "GTMNSString+HTML.h"; path = "NEWS Feed/Classes/GTMNSString+HTML.h"; sourceTree = SOURCE_ROOT; };
 		395470821C955DFB00081EB3 /* GTMNSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "GTMNSString+HTML.m"; path = "NEWS Feed/Classes/GTMNSString+HTML.m"; sourceTree = SOURCE_ROOT; };
+		3960BA411C95655E0000CBF9 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "NEWS Feed/Bolts.framework"; sourceTree = "<group>"; };
+		3960BA421C95655E0000CBF9 /* FacebookSDKStrings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = FacebookSDKStrings.bundle; path = "NEWS Feed/FacebookSDKStrings.bundle"; sourceTree = "<group>"; };
+		3960BA431C95655E0000CBF9 /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBAudienceNetwork.framework; path = "NEWS Feed/FBAudienceNetwork.framework"; sourceTree = "<group>"; };
+		3960BA441C95655E0000CBF9 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "NEWS Feed/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		3960BA451C95655E0000CBF9 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "NEWS Feed/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		3960BA461C95655E0000CBF9 /* FBSDKMessengerShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKMessengerShareKit.framework; path = "NEWS Feed/FBSDKMessengerShareKit.framework"; sourceTree = "<group>"; };
+		3960BA471C95655E0000CBF9 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "NEWS Feed/FBSDKShareKit.framework"; sourceTree = "<group>"; };
+		3960BA4F1C9565700000CBF9 /* newsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = newsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,12 +93,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3954705F1C95431500081EB3 /* Bolts.framework in Frameworks */,
-				395470621C95431500081EB3 /* FBSDKCoreKit.framework in Frameworks */,
-				395470651C95431500081EB3 /* FBSDKShareKit.framework in Frameworks */,
-				395470641C95431500081EB3 /* FBSDKMessengerShareKit.framework in Frameworks */,
-				395470631C95431500081EB3 /* FBSDKLoginKit.framework in Frameworks */,
-				395470611C95431500081EB3 /* FBAudienceNetwork.framework in Frameworks */,
+				3960BA481C95655E0000CBF9 /* Bolts.framework in Frameworks */,
+				3960BA4B1C95655E0000CBF9 /* FBSDKCoreKit.framework in Frameworks */,
+				3960BA4E1C95655E0000CBF9 /* FBSDKShareKit.framework in Frameworks */,
+				3960BA4D1C95655E0000CBF9 /* FBSDKMessengerShareKit.framework in Frameworks */,
+				3960BA4C1C95655E0000CBF9 /* FBSDKLoginKit.framework in Frameworks */,
+				3960BA4A1C95655E0000CBF9 /* FBAudienceNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,6 +125,7 @@
 		3908CBB91C946D1B0019D36B /* NEWS Feed */ = {
 			isa = PBXGroup;
 			children = (
+				3960BA4F1C9565700000CBF9 /* newsViewController.m */,
 				3908CC021C9479270019D36B /* SIPhoto.h */,
 				3908CC031C9479270019D36B /* SIPhoto.m */,
 				3908CBBD1C946D1B0019D36B /* AppDelegate.h */,
@@ -147,7 +148,6 @@
 				395470111C951D1200081EB3 /* logViewController.h */,
 				395470121C951D1200081EB3 /* logViewController.m */,
 				395470141C9521EF00081EB3 /* newsViewController.h */,
-				395470151C9521EF00081EB3 /* newsViewController.m */,
 				395470551C953FFE00081EB3 /* wvViewController.h */,
 				395470561C953FFE00081EB3 /* wvViewController.m */,
 			);
@@ -165,13 +165,13 @@
 		3908CBED1C9473120019D36B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				395470581C95431500081EB3 /* Bolts.framework */,
-				395470591C95431500081EB3 /* FacebookSDKStrings.bundle */,
-				3954705A1C95431500081EB3 /* FBAudienceNetwork.framework */,
-				3954705B1C95431500081EB3 /* FBSDKCoreKit.framework */,
-				3954705C1C95431500081EB3 /* FBSDKLoginKit.framework */,
-				3954705D1C95431500081EB3 /* FBSDKMessengerShareKit.framework */,
-				3954705E1C95431500081EB3 /* FBSDKShareKit.framework */,
+				3960BA411C95655E0000CBF9 /* Bolts.framework */,
+				3960BA421C95655E0000CBF9 /* FacebookSDKStrings.bundle */,
+				3960BA431C95655E0000CBF9 /* FBAudienceNetwork.framework */,
+				3960BA441C95655E0000CBF9 /* FBSDKCoreKit.framework */,
+				3960BA451C95655E0000CBF9 /* FBSDKLoginKit.framework */,
+				3960BA461C95655E0000CBF9 /* FBSDKMessengerShareKit.framework */,
+				3960BA471C95655E0000CBF9 /* FBSDKShareKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -285,7 +285,7 @@
 				3908CBCA1C946D1B0019D36B /* LaunchScreen.storyboard in Resources */,
 				3908CBC71C946D1B0019D36B /* Assets.xcassets in Resources */,
 				3908CBC51C946D1B0019D36B /* Main.storyboard in Resources */,
-				395470601C95431500081EB3 /* FacebookSDKStrings.bundle in Resources */,
+				3960BA491C95655E0000CBF9 /* FacebookSDKStrings.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,8 +310,8 @@
 				395470841C955DFB00081EB3 /* GTMNSString+HTML.m in Sources */,
 				3908CBBF1C946D1B0019D36B /* AppDelegate.m in Sources */,
 				3908CC081C9494A20019D36B /* mainViewController.m in Sources */,
-				395470161C9521EF00081EB3 /* newsViewController.m in Sources */,
 				395470831C955DFB00081EB3 /* DetailTableViewController.m in Sources */,
+				3960BA501C9565700000CBF9 /* newsViewController.m in Sources */,
 				3908CBBC1C946D1B0019D36B /* main.m in Sources */,
 				395470131C951D1200081EB3 /* logViewController.m in Sources */,
 			);
@@ -433,6 +433,10 @@
 					Feed,
 					"$(PROJECT_DIR)/NEWS",
 					Feed,
+					"$(PROJECT_DIR)/NEWS",
+					Feed,
+					"$(PROJECT_DIR)/NEWS",
+					Feed,
 				);
 				INFOPLIST_FILE = "NEWS Feed/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -449,6 +453,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(PROJECT_DIR)/NEWS",
+					Feed,
+					"$(PROJECT_DIR)/NEWS",
+					Feed,
 					"$(PROJECT_DIR)/NEWS",
 					Feed,
 					"$(PROJECT_DIR)/NEWS",

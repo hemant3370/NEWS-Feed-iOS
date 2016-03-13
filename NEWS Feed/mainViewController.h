@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface mainViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
+@interface mainViewController : UIViewController<UITableViewDataSource,UITableViewDelegate,UIAlertViewDelegate>
 
 @end

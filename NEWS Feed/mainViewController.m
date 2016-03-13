@@ -22,6 +22,25 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
    image = @[@"world", @"politics", @"health", @"science", @"entertainment", @"sports"];
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemSearch
+                                                                                           target:self
+                                                                                           action:@selector(refresh)];
+}
+-(void)refresh{
+    UIAlertView *myAlertView = [[UIAlertView alloc] initWithTitle:@"Search for anything"
+                                                          message:@"" delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:@"OK", nil];
+    
+    myAlertView.alertViewStyle = UIAlertViewStylePlainTextInput;
+    [myAlertView show];
+}
+- (void)alertView:(UIAlertView *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex
+{
+    if (buttonIndex == 1 && [actionSheet textFieldAtIndex:0].text.length > 0) {
+        NSLog(@"%@", [actionSheet textFieldAtIndex:0].text);
+        key = [actionSheet textFieldAtIndex:0].text;
+        [self performSegueWithIdentifier:@"toNews" sender:nil];
+    }
+   
 }
 
 - (void)didReceiveMemoryWarning {
